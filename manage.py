@@ -35,7 +35,7 @@ def upload():
     result_json['src'] = 'static/createPic/'+newpicture
     return jsonify(result_json)
 
-yourhost='192.168.126.129'
+yourhost=''
 
 if __name__ == '__main__':
     app.run(debug=True, host=yourhost)
